@@ -1,0 +1,243 @@
+### YamlMime:Hub
+
+title: "Minecraft: Bedrock Edition Creator Documentation" # < 60 chars
+summary: "Learn how to mod Minecraft with Add-Ons. Create skins, design unique experiences, discover the latest features, and develop your skills as a Minecraft creator."
+
+metadata:
+  title: "Minecraft: Bedrock Edition Creator Documentation" # Required; page title shown in search results < 60 chars
+  description: "Learn how to mod Minecraft with Add-Ons. Create skins, design unique experiences, discover the latest features, and develop your skills as a Minecraft creator." # < 160 chars
+  service: service
+  ms.service: minecraft-bedrock-edition
+  ms.topic: hub-page # Required
+  ms.date: 08/30/2021
+  author: mammerla # Required; Github alias
+  ms.author: kakinnun # Required; Microsoft alias; with correct grammar
+
+# highlighted content section (optional), will outlined up to 8 items in a 4x2 grid.
+highlightedContent:
+# itemType:  architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    #card
+    - title: Scripting
+      itemType: reference
+      url: ScriptAPI/index.yml
+    #card
+    - title: "Minecraft Bedrock Editor"
+      itemType: whats-new
+      url: Documents/EditorOverview.md
+    #card
+    - title: "1.21 Update Summary"
+      itemType: whats-new
+      url: Documents/Update1.21.md
+    #card
+    - title: Camera Command
+      itemType: whats-new
+      url: Documents/CameraCommandIntroduction.md
+    #card
+    - title: "Building Editor Extensions"
+      itemType: whats-new
+      url: Documents/EditorExtensionsIntroduction.md
+    #card
+    - title: Minecraft Item Wizard
+      itemType: whats-new
+      url: Documents/MinecraftItemWizard.md
+
+# productDirectory section (optional)
+productDirectory:
+  title: Building Custom Content  # < 60 chars (optional)
+  summary: Whether you are creating first Add-On or your one-hundredth, there is content for all types of creators to help you on your journey! # < 160 chars (optional)
+  items:
+    # Card
+    - title: Getting Started with Add-On Development
+      imageSrc: images/Add-Resource-Pack.png
+      summary: "Working with Add-Ons in Minecraft: Bedrock Edition is easy! Learn how to get started"
+      url: Documents/GettingStarted.md
+    # Card
+    - title: Getting Started with Minecraft Block Wizard
+      imageSrc: images/Firework.png
+      summary: Rapidly design, build and deploy a brand new Block with the new Minecraft Block Wizard Tool
+      url: Documents/MinecraftBlockWizard.md
+    # Card
+    - title: Getting Started with Minecraft Entity Wizard
+      imageSrc: images/Firework.png
+      summary: Rapidly design, build and deploy a brand new Entity with the Minecraft Entity Wizard Tool
+      url: Documents/MinecraftEntityWizard.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# Supports up to 3 sections
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  sections:
+    - title: Discover what you can Create # < 60 chars (optional)
+      summary: "Building new Add-Ons or want to learning about new Features? The Creator Documentation provides a collection of written content to assist creators." # < 160 chars (optional)
+      items:
+        # card
+        - title: Add-On Pack Tutorials
+          summary: "Learn how Add-Ons are used to bring custom content into Minecraft"
+          links:
+            - url: Documents/ResourcePack.md
+              itemType: get-started
+              text: Introduction to Resource Packs
+            - url: Documents/BehaviorPack.md
+              itemType: get-started
+              text: Introduction to Behavior Packs
+            - url: Documents/AddCustomDieBlock.md
+              itemType: how-to-guide
+              text: How to add a Custom Block
+        # card
+        - title: Build a simple game with Commands
+          summary: "Commands are a powerful way to add logic into your experiences."
+          links:
+            - url: Documents/CommandsIntroduction.md
+              itemType: concept
+              text: Introduction to Commands
+            - url: Documents/CommandsPopularCommands.md
+              itemType: reference
+              text: Popular Commands
+            - url: Documents/CommandBlocks.md
+              itemType: get-started
+              text: Introduction to Command Blocks
+            - url: Documents/CreateAnInWorldGame.md
+              itemType: how-to-guide
+              text: Create an In-World Game with Commands
+            - url: Commands/index.yml
+              itemType: reference
+              text: Command Reference Documentation
+
+        # card
+        - title: Adding new Minecraft Entities
+          summary: "Learn how to create and implement your own custom entities."
+          links:
+            - url: Documents/IntroductionToAddEntity.md
+              itemType: get-started
+              text: Creating New Entity Types
+            - url: Documents/EntityModelingAndAnimation.md
+              itemType: tutorial
+              text: Entity Modeling and Animation
+            - url: Documents/EntityBehaviorIntroduction.md
+              itemType: tutorial
+              text: Entity Behavior Introduction
+            - url: Documents/EntityEvents.md
+              itemType: tutorial
+              text: Entity Events
+            - url: Documents/IntroductionToEntityProperties.md
+              itemType: tutorial
+              text: Entity Properties
+            - url: Reference/Content/molangreference/index.yml
+              itemType: reference
+              text: Molang Documentation
+        # card
+        - title: Adding NPCs
+          summary: "Populate your world with interactive characters to create unique narrative experiences."
+          links:
+            - url: Documents/CreateNPCs.md
+              itemType: tutorial
+              text: Create a Custom NPC
+            - url: Documents/NPCDialogue.md
+              itemType: tutorial
+              text: NPC Dialogue Command
+        # card
+        - title: Loot and Trading Tables
+          summary: "Discover how Tables allow creators to add items to the world in a wide variety of ways."
+          links:
+          - url: Documents/IntroductionToLootTables.md
+            itemType: get-started
+            text: Introduction to Loot Tables
+          - url: Documents/LootAndTradeTableFunctions.md
+            itemType: overview
+            text: Loot Overloads
+          - url: Documents/LootOverloads.md
+            itemType: overview
+            text: Learn about Loot Overloads
+        # card
+        - title: Adding new Custom Blocks
+          summary: "Learn how to make your own custom blocks to decorate your world."
+          links:
+          - url: Documents/AddCustomDieBlock.md
+            itemType: tutorial
+            text: Simple Blocks
+          - url: Documents/AdvancedCustomBlocks.md
+            itemType: tutorial
+            text: Unique Shape Blocks
+          - url: Documents/CustomBlockRenderLighting.md
+            itemType: tutorial
+            text: Block Render and Lighting Options
+          - url: Documents/CustomBlockOversized.md
+            itemType: tutorial
+            text: Oversized Blocks
+    # Reference Section
+    - title: References  # < 60 chars (optional)
+      summary: "Learn how content works with Reference documentation and how GameTest can empower your workflow." # < 160 chars (optional)
+      items:
+      # card
+      - title: Using Script APIs
+        summary: "Learn how new Script APIs can speed up your development time and make more dynamic content."
+        links:
+          - url:  Documents/ScriptingIntroduction.md
+            itemType: get-started
+            text: Getting Started with Scripting APIs
+          - url: ScriptAPI/index.yml
+            itemType: reference
+            text: Scripting API Reference
+          - url:  Documents/ScriptingGettingStarted.md
+            itemType: get-started
+            text: Using TypeScript with Minecraft Scripting APIs
+          - url: Documents/ScriptDeveloperTools.md
+            itemType: how-to-guide
+            text: Use Visual Studio Code tools to write script
+          - url: Documents/EditorExtensionsIntroduction.md
+            itemType: get-started
+            text: Getting Started with Editor Extensions
+      # card
+      - title: JSON Reference Documentation
+        summary: "Need a hand creating your content? View the JSON reference documentation to see how things work in-game."
+        links:
+          - url: Reference/Content/addonsreference/index.yml
+            itemType: reference
+            text: Addons JSON
+          - url: Reference/Content/animationsreference/index.yml
+            itemType: reference
+            text: Animation JSON
+          - url: Reference/Content/blockreference/index.yml
+            itemType: reference
+            text: Block JSON
+          - url: Reference/Content/entityreference/index.yml
+            itemType: reference
+            text: Entity JSON
+          - url: Reference/Content/featuresreference/index.yml
+            itemType: reference
+            text: Features JSON
+          - url: Reference/Content/itemreference/index.yml
+            itemType: reference
+            text: Item JSON
+          - url: Reference/Content/Recipereference/index.yml
+            itemType: reference
+            text: Recipe JSON
+          - url: Reference/Content/particlesreference/index.yml
+            itemType: reference
+            text: Particle JSON
+      # card
+      - title: Common Schema Documentation
+        summary: "See how Schemas are used to validate JSON files in Minecraft: Bedrock Edition "
+        links:
+          - url: Reference/Content/SchemasReference/index.yml
+            itemType: reference
+            text: Schemas Documentation
+          - url: Reference/Content/BiomeReference/Examples/BiomeOverview.md
+            itemType: overview
+            text: Biome Overview
+          - url: Reference/Content/FogsReference/Examples/FogsIntroduction.md
+            itemType: overview
+            text: Introduction to Fogs
+
+# Tools Section
+tools:
+  title: Tools and Vanilla Packs
+  summary: Get started with some of the most commonly used tools for creating content.
+  items:
+    - title: Visual Studio Code
+      imageSrc: images/VSCode.png
+      url: "https://code.visualstudio.com/Download"
+    - title: Vanilla Resource and Behavior Packs
+      imageSrc: images/ResourcePack64.png
+      url: "https://aka.ms/behaviorpacktemplate"
